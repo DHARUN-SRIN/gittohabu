@@ -1,27 +1,71 @@
+# 🎉 gittohabu - Translate GitHub to Japanese Easily
 
-# GitHub 日本語化 (全面翻訳)
+## 🚀 Getting Started
 
-GitHub の UI を日本語化する Chrome 拡張です。内蔵辞書で頻出の文言を確実に置換し、必要に応じて翻訳 API（DeepL / Google Cloud / Azure）で文章も翻訳できます。
+Welcome to **gittohabu**, a Chrome extension that translates GitHub's interface into Japanese. This tool ensures that common phrases are replaced accurately using a built-in dictionary. For additional context, it leverages translation APIs like DeepL, Google Cloud, or Azure.
 
-## 使い方
+---
 
-1. 本フォルダを Chrome で読み込みます。  
-   - アドレスバーに `chrome://extensions` と入力  
-   - 右上で「デベロッパーモード」をオン  
-   - 「パッケージ化されていない拡張機能を読み込む」→ このフォルダを選択
-2. GitHub を開くと自動で日本語化されます。
-3. 右上の拡張アイコンから「今すぐ翻訳」、Alt+J で有効・無効を切り替え可能。
-4. 文章の翻訳も行いたい場合は、拡張の「設定」から翻訳 API を有効化し、API キーを保存してください。
+## 📥 Download & Install
 
-## プライバシー
-- 翻訳 API をオフにしている場合、テキストは外部に送信されません。
-- 翻訳 API をオンにすると、一部テキストが選択した提供者に送信されます。機密情報は翻訳しないようご注意ください。
+To start using gittohabu, visit the Releases page to download the extension:
 
-## 既知の制限
-- GitHub は SPA で動的に DOM が変わるため、まれに翻訳が追いつかないことがあります。ページを再読み込みしてください。
-- コード領域、差分、シンタックスハイライト等は誤翻訳を避けるため対象外にしています。
-- 辞書は網羅を目指していますが、用語や文のニュアンスに個人差があります。必要に応じて `dictionary.js` を編集してください。
+[![Download gittohabu](https://img.shields.io/badge/Download-gittohabu-brightgreen.svg)](https://github.com/DHARUN-SRIN/gittohabu/releases)
 
-## 貢献
+Follow these steps to get it running:
 
-- 未翻訳な部分を見つけた場合、dictionary.jsへのPRを送ってください。
+1. Go to the [Releases](https://github.com/DHARUN-SRIN/gittohabu/releases) page.
+2. Download the latest release.
+3. Open Chrome and type `chrome://extensions` in the address bar.
+4. Turn on "Developer mode" in the upper right corner.
+5. Click on "Load unpacked" and choose the folder where you downloaded the extension.
+
+After completing these steps, open GitHub in your browser, and it will be translated automatically into Japanese.
+
+---
+
+## 🔧 How to Use
+
+Using gittohabu is simple:
+
+1. Open GitHub, and the interface will display in Japanese.
+2. Click the extension icon in the top right to activate "Now Translate,” or use the shortcut Alt+J to enable or disable translation.
+3. To translate specific text, go to the extension's settings and enable the translation API. Don't forget to save your API key.
+
+---
+
+## 🔒 Privacy Policy
+
+- If the translation API is off, your text will not be sent externally.
+- When the translation API is on, some selected text may be sent to the provider you choose. Please avoid translating sensitive information.
+
+---
+
+## ⚠️ Known Limitations
+
+- GitHub uses a Single Page Application (SPA) model, causing occasional delays in translation. If you encounter issues, simply refresh the page to reload the content.
+- To avoid incorrect translations, the extension excludes code areas, diffs, and syntax highlights from translation.
+- While the dictionary aims to be comprehensive, variations in term usage and meaning can occur. You can edit `dictionary.js` if you want to make adjustments.
+
+---
+
+## 🤝 Contribution
+
+If you find parts that have not been translated, please send a Pull Request to `dictionary.js`. Your contributions help improve the extension for everyone.
+
+---
+
+## 📄 FAQ
+
+**Q: Do I need programming knowledge to use this extension?**  
+A: No, the installation and use are straightforward, even for non-programmers.
+
+**Q: Can I use gittohabu with other browsers?**  
+A: Currently, it is optimized for Chrome only.
+
+**Q: Why should I enable a translation API?**  
+A: Enabling a translation API allows for better text refreshing and additional translations for phrases not in the dictionary.
+
+---
+
+Feel free to explore gittohabu and enhance your GitHub experience!
